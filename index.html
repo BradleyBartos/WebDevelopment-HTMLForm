@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Email Form</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+	<link href="styles.css" rel="stylesheet" type="text/css" />
+    <script src="index.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Contact Us</h1>
+        <form>
+            <div>
+              <label for="name">Name</label>
+              <input id="name" type="text" name="name" autofocus="on" required maxlength="100"/>
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" type="text" name="email" required maxlength="255"/>
+            </div>
+            <input id="cc-select" type="checkbox" onclick="ccHandler(this)"/>
+            <label for="cc-select">Select to CC</label>
+            <div class="cc-email"></div>
+            <div>
+              <label for="subject">Subject</label>
+              <input id="subject" type="text" name="subject" required maxlength="100"/>
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required maxlength="500"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+            <button type="reset">Clear</button>
+        </form>
+    </main>
+</body>

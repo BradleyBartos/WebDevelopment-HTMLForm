@@ -1,0 +1,19 @@
+{
+  "name": "webdevelopment-htmlform",
+  "version": "1.0.0",
+  "description": "Assignment for Thinkful's Web Development Course 5.6.6 - HTML Forms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BradleyBartos/WebDevelopment-HTMLForm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BradleyBartos/WebDevelopment-HTMLForm/issues"
+  },
+  "homepage": "https://github.com/BradleyBartos/WebDevelopment-HTMLForm#readme"
+}
